@@ -4,7 +4,7 @@ A destructive memory test that tests memory blocks on a byte-sized basis.
 
 The parameters of the test are defined in a test_blob_t structure, tb.
 
-The tb structure is initialized in test-memory.c.  It defines the following:
+The tb structure is initialized in test-memory-blocks.c.  It defines the following:
  * test patterns (input)
  * memory blocks to test (input)
  * address stride (input)
